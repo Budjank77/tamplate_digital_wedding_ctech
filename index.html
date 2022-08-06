@@ -103,7 +103,7 @@
 							<h1>Farid  &amp; Dini</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#fh5co-couple" onclick="play()" class="btn btn-default btn-sm">Buka Undangan</a></p>
+							<p><a href="#" onclick="play()" class="btn btn-default btn-sm">Buka Undangan</a></p>
 						</div>
 					</div>
 				</div>
@@ -618,8 +618,13 @@
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 
 	function play() {
-		var audio = new Audio("audio/akad.mp3");
+		var audio = new Audio("audio/kenny.mp3");
 		audio.play();
+	// 	window.scrollBy(0,1);
+    // scrolldelay = setTimeout(pageScroll,10);
+	$(document).ready(function(){
+     $('body,html').animate({scrollTop: 9000}, 300000); 
+});
 	}
 
     // default example
