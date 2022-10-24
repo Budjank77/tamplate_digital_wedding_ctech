@@ -328,6 +328,11 @@ figure {
   position: relative;
   z-index: 10;
 }
+/* @media screen and (min-width: 320px) {
+  .fh5co-cover {
+    height: 600px;
+  }
+} */
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
@@ -335,7 +340,7 @@ figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 800px;
   display: table;
   width: 100%;
 }
@@ -858,8 +863,8 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 100px;
-  line-height: 1.5;
+  font-size: 45px;
+  line-height: 1;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -879,7 +884,7 @@ form label {
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
-  font-size: 20px;
+  font-size: 35px;
   line-height: 1.5;
   margin-bottom: 30px;
 }
@@ -887,7 +892,7 @@ form label {
   #fh5co-header .display-tc h2,
   #fh5co-counter .display-tc h2,
   .fh5co-cover .display-tc h2 {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
 #fh5co-header .display-tc .btn,
@@ -897,7 +902,7 @@ form label {
   background: #fff !important;
   color: #f14e95;
   border: none !important;
-  font-size: 14px;
+  font-size: 10px;
   text-transform: uppercase;
 }
 #fh5co-header .display-tc .btn:hover,
@@ -1678,7 +1683,7 @@ form label {
 }
 
 .btn {
-  margin-right: 4px;
+  margin-right: 10px;
   margin-bottom: 4px;
   font-family: "Work Sans", Arial, sans-serif;
   font-size: 16px;
