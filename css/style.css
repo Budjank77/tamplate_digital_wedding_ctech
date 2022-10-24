@@ -14,7 +14,7 @@
 body {
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: #828282;
   background: #fff;
@@ -72,7 +72,7 @@ h4,
 h5,
 h6,
 figure {
-  color: #000;
+  color: rgb(255, 255, 255);
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -898,11 +898,11 @@ form label {
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
-  padding: 15px 20px;
+  padding: 5px 20px;
   background: #fff !important;
   color: #f14e95;
   border: none !important;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 #fh5co-header .display-tc .btn:hover,
@@ -961,15 +961,15 @@ form label {
 .simply-countdown > .simply-section {
   /* coutndown blocks */
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 55px;
+  height: 55px;
   background: rgba(241, 78, 149, 0.8);
-  margin: 0 4px;
+  margin: 0 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  position: relative;
+  position: static;
   animation: pulse 1s ease infinite;
 }
 
@@ -988,26 +988,31 @@ form label {
   /* countdown block inner div */
   display: table-cell;
   vertical-align: middle;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
   color: white;
+  padding-top: 7px;
+  margin-right: 0px;
   /* amounts and words */
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 25px;
+  margin-left: 6px;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
+  margin: end;
+  margin-top: 0px;
   /* words */
 }
 
@@ -1217,7 +1222,7 @@ form label {
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.5;
   color: #828282;
 }
