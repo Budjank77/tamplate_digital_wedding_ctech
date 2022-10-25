@@ -72,7 +72,7 @@ h4,
 h5,
 h6,
 figure {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -108,7 +108,7 @@ figure {
   }
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 40px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   line-height: 40px;
@@ -878,7 +878,7 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 #fh5co-header .display-tc h2,
@@ -1222,9 +1222,9 @@ form label {
   }
 }
 .fh5co-heading p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
-  color: #828282;
+  color: #f0eeee;
 }
 .fh5co-heading span {
   text-transform: uppercase;
