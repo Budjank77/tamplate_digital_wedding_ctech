@@ -532,7 +532,7 @@ h2,
 
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 h4,
@@ -547,7 +547,7 @@ h5,
 
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 p {
@@ -912,6 +912,7 @@ pre code {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 10px;
 }
 .container:before,
 .container:after {
