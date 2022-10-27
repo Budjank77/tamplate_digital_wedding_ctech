@@ -51,6 +51,10 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	</head>
 	<body>
 		
@@ -240,12 +244,84 @@
 		</div>
 	</div>
 	<div id="fh5co-card1" class="fh5co-bg" style="background-image:url(images/13.jpg);">
-		<div class="col-md-5 col-md-offset-2 fh5co-heading12 animate-box">
+		<div class="col-md-12  fh5co-heading12 animate-box text-center">
 			<h2>Amplop Digital</h2>
 			<span style="color: rgb(255, 255, 255)">Doa Restu Anda merupakan karunia yang sangat<br> berarti bagi kami.
 			Dan jika memberi adalah ungkapan <br>tanda kasih Anda, Anda dapat memberi kado secara cashless.</span>
 		</div>
-		<div id="kartu1" class="row">
+			<div class="row">	
+				<div class="col-md-10 col-md-offset-1">
+					<div class="col-md-6 col-sm-4 text-center">
+						<div class="event-wrap animate-box">
+							<div class="container" id="kartu1">
+								<img class="img-bjb2" src="images/bjb.png" alt="" >
+								<br>
+								<span class="elementor-divider-separator"></span>
+								<div class="elementor-divider"></div>
+								<h3 style="color: rgb(255, 255, 255)">A/N Muhamad Jayadi Afrizal</h3>
+								<h4 style="color: rgb(255, 255, 255)">No. Rekening : 0123876865100</h4>
+								<p></p>
+								<input type="text" value="0123876865100" id="amplop1">
+								<button onclick="myFunction(1)" class="btn1" ><i class="fa fa-copy"></i> Copy Teks</button>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-4 text-center">
+						<div class="event-wrap animate-box">
+							<div class="container" id="kartu1">
+								<img class="img-bjb2" src="images/bjb.png" alt="" >
+								<br>
+								<span class="elementor-divider-separator"></span>
+								<div class="elementor-divider"></div>
+								<h3 style="color: rgb(255, 255, 255)">A/N Mustika Rahmalia</h3>
+								<h4 style="color: rgb(255, 255, 255)">No. Rekening : 0117639355100</h4>
+								<p></p>
+								<input type="text" value="0117639355100" id="amplop2">
+								<button onclick="myFunction(2)" class="btn1" ><i class="fa fa-copy"></i> Copy Teks</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-4 text-center">
+						<div class="event-wrap animate-box">
+							<div class="container" id="kartu1">
+								<img class="img-bjb2" src="images/pay.png" alt="" >
+								<br>
+								<span class="elementor-divider-separator"></span>
+								<div class="elementor-divider"></div>
+								<h3 style="color: rgb(255, 255, 255)">A/N mustikarahmalia25</h3>
+								<h4 style="color: rgb(255, 255, 255)">No. Rekening : 0895404741090</h4>
+								<p></p>
+								<input type="text" value="0895404741090" id="amplop3">
+								<button onclick="myFunction(3)" class="btn1" ><i class="fa fa-copy"></i> Copy Teks</button>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+<!-- 			
+			<div class="row" id="kartu1">
+				<div class="col-md-4">
+					<img class="img-bjb2" src="images/bjb.png" alt="" >
+					<div class="divider1"></div>
+					<h3 style="color: rgb(255, 255, 255)">A/N Muhamad Jayadi Afrizal</h3>
+					<h4 style="color: rgb(255, 255, 255)">No. Rekening : 0123876865100</h4>
+				</div>
+				<div class="col-md-4">
+					<img class="img-bjb2" src="images/bjb.png" alt="" >
+					<div class="divider1"></div>
+					<h3 style="color: rgb(255, 255, 255)">A/N Muhamad Jayadi Afrizal</h3>
+					<h4 style="color: rgb(255, 255, 255)">No. Rekening : 0123876865100</h4>
+				</div>
+				<div class="col-md-4">
+					<img class="img-bjb2" src="images/bjb.png" alt="" >
+					<div class="divider1"></div>
+					<h3 style="color: rgb(255, 255, 255)">A/N Muhamad Jayadi Afrizal</h3>
+					<h4 style="color: rgb(255, 255, 255)">No. Rekening : 0123876865100</h4>
+				</div>
+			</div> -->
+			
+		<!-- <div id="kartu1" class="row">
 			<div class="col-md-8">
 				<img class="img-bjb2" src="images/bjb.png" alt="" >
 				<div class="divider1"></div>
@@ -260,7 +336,7 @@
 				<h3 style="color: rgb(255, 255, 255)">A/N Mustika Rahmalia</h3>
 				<h4 style="color: rgb(255, 255, 255)">No. Rekening : 0117639355100</h4>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<div id="fh5co-couple-story">
@@ -594,6 +670,45 @@
         enableUtc: false
     });
 
+	function myFunction(btn) {
+		if(btn == 1){
+			var copyText = document.getElementById("amplop1");
+
+// Select the text field
+copyText.select();
+copyText.setSelectionRange(0, 99999); // For mobile devices
+
+ // Copy the text inside the text field
+navigator.clipboard.writeText(copyText.value);
+
+// Alert the copied text
+alert("Copied the text: " + copyText.value);	
+			
+		}else if(btn==2){
+			var copyText = document.getElementById("amplop2");
+
+// Select the text field
+copyText.select();
+copyText.setSelectionRange(0, 99999); // For mobile devices
+
+ // Copy the text inside the text field
+navigator.clipboard.writeText(copyText.value);
+
+// Alert the copied text
+alert("Copied the text: " + copyText.value);	
+		} else{ 
+			var copyText = document.getElementById("amplop3");
+			copyText.select();
+copyText.setSelectionRange(0, 99999); // For mobile devices
+
+ // Copy the text inside the text field
+navigator.clipboard.writeText(copyText.value);
+
+// Alert the copied text
+alert("Copied the text: " + copyText.value);
+		}
+
+}
 </script>
 
 	</body>

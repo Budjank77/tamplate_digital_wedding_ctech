@@ -1984,18 +1984,18 @@ form label {
 }
 
 #kartu1 {
-  width: 374px;
-  height: 250px;
-  background-color: rgba(255, 255, 255, 0.055);
+  width: 100%;
+  height: 270px;
+  background-color: rgba(131, 131, 131, 0.575);
   border: 3px solid rgba(255, 255, 255, 0.5);
   margin: auto;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   padding: 15px;
   /* float: left; */
 }
 
-#kartu2 {
+/* #kartu2 {
   width: 374px;
   height: 250px;
   background-color: rgba(255, 255, 255, 0.055);
@@ -2004,8 +2004,8 @@ form label {
   margin-top: 15px;
   margin-bottom: 40px;
   padding: 15px;
-  /* float: left; */
-}
+  float: left;
+} */
 
 .img-bjb1 {
   width: 100px;
@@ -2021,14 +2021,13 @@ form label {
   position: relative;
 }
 
-.divider1 {
+.elementor-divider {
   width: 300px;
   height: 5px;
   justify-content: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 5px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
   display: inline-block;
-  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .divider2 {
@@ -2040,8 +2039,9 @@ form label {
   display: inline-block;
   padding-bottom: 10px;
 }
-/* .divider2 {
-  width: 300px;
+
+/* .divider1 {
+  width: 30px;
   height: 5px;
   justify-content: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -2058,3 +2058,102 @@ form label {
   color: #f14e95;
   font-family: "Sacramento", Arial, serif;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 240px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+#amplop1 {
+  display: none;
+}
+
+#amplop2 {
+  display: none;
+}
+
+#amplop3 {
+  display: none;
+}
+
+.img3 {
+  width: 20px;
+  height: 20px;
+}
+
+/* #img1 {
+  width: 20px;
+  height: 20px;
+} */
+
+.btn1 {
+  margin-right: 10px;
+  margin-bottom: 4px;
+  font-family: "work sans" Arial, Helvetica, sans-serif;
+  width: 150px;
+  display: inline-block;
+  background-color: rgb(255, 0, 162);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+
+.container .btn1:hover {
+  transition: ease-out 0.3s;
+  background-color: rgb(255, 255, 255);
+  color: rgb(26, 26, 26);
+}
+
+/* .container .btn1::before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(255, 0, 162);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+} */
