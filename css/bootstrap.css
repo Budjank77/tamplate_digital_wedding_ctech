@@ -138,6 +138,7 @@ textarea {
   color: inherit;
   font: inherit;
   margin: 0;
+  padding-left: 30px;
 }
 
 button {
@@ -2247,6 +2248,7 @@ output {
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
+
 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
@@ -3300,10 +3302,12 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
   display: block;
   width: 100%;
+  margin-top: 15px;
+  justify-content: center;
 }
 
 .btn-block + .btn-block {
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 input[type="submit"].btn-block,
@@ -3313,7 +3317,7 @@ input[type="button"].btn-block {
 }
 
 .fade {
-  opacity: 0;
+  /* opacity: 0; */
   -webkit-transition: opacity 0.15s linear;
   -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
@@ -4950,10 +4954,12 @@ a.thumbnail.active {
 }
 
 .alert {
-  padding: 15px;
+  /* padding: 15px; */
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .alert h4 {
   margin-top: 0;

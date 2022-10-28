@@ -1405,7 +1405,25 @@ form label {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  position: relative;
+  /* float: left; */
 }
+
+#fh5co-started .form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: none !important;
+  color: #fff;
+  font-size: 16px !important;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#form-grup {
+  width: 100px;
+}
+
 #fh5co-started .form-control::-webkit-input-placeholder {
   color: #fff;
 }
@@ -1424,7 +1442,12 @@ form label {
   background: rgba(255, 255, 255, 0.3);
 }
 #fh5co-started .btn {
-  height: 54px;
+  justify-content: center;
+  display: block;
+  margin-top: 20px;
+  margin: 20px;
+  height: 42px;
+  width: 90%;
   border: none !important;
   background: #f14e95;
   color: #fff;
@@ -1432,8 +1455,29 @@ form label {
   text-transform: uppercase;
   font-weight: 400;
   padding-left: 50px;
+  text-align: center;
   padding-right: 50px;
 }
+
+#fh5co-started .btn4 {
+  justify-content: center;
+  display: block;
+  margin-top: 10px;
+  /* margin: 20px; */
+  height: 42px;
+  width: 90%;
+  border: none !important;
+  background: #f14e95;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-left: 50px;
+  text-align: center;
+  padding-right: 50px;
+  border-radius: 30px;
+}
+
 #fh5co-started .form-inline .form-group {
   width: 100% !important;
   margin-bottom: 10px;
@@ -1719,13 +1763,14 @@ form label {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px;
+  padding-left: 15px;
 }
-.btn.btn-md {
+/* .btn.btn-md {
   padding: 8px 20px !important;
 }
 .btn.btn-lg {
   padding: 18px 36px !important;
-}
+} */
 .btn:hover,
 .btn:active,
 .btn:focus {
